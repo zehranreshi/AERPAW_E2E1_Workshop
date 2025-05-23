@@ -2,8 +2,8 @@
 
 Navigate to the radio scripts directory
 
-```bash
-cd /root/Profiles/ProfileScripts/Radio
+```bash cd /root/Profiles/ProfileScripts/Radio
+
 ```
 
 Now we need to copy the default eNB+EPC script into the file that will be executed by the controller script:
@@ -191,7 +191,6 @@ nano startVehicle.sh
 
 In the file, change the mission path line to:
 
-````bash
+```bash
 export MISSION=$PROFILE_DIR"/vehicle_control/PreplannedTrajectory/Missions/custom.plan"
-```"
-````
+```
